@@ -17,6 +17,6 @@ void loop() {	// Kode di dalam sini akan dijalankan terus menerus
   unsigned int distance = sonar.ping_cm();	// Mendeteksi jarak dari sensor
 
   Serial.print ("Jarak = ");//
-  Serial.print (distance);	//	Menampilkan Jarak yang sudah diukur
-  Serial.println (" cm");	//
+  Serial.print (distance);  //	Menampilkan Jarak yang sudah diukur
+  Serial.println (" cm");   //
 }
